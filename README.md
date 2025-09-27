@@ -94,6 +94,7 @@ cp smaug.service.example /etc/systemd/system/smaug.service
 systemctl daemon-reload
 systemctl enable smaug.service
 systemctl start smaug.service
+systemctl status smaug.service
 ```
 
 ## Architecture
